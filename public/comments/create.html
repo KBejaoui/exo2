@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire Exo2 </title>
+
+</head>
+<body>
+    <h1> Formulaire de création </h1>
+    <form action="/api/comments/create" method="post">
+        <fieldset>
+
+            <div>
+                <label for="id">Identifiant de l'article : </label>
+                <input type="text" id="id" name="articles_id">
+            </div>
+            <textarea name="comments_content" rows="6" cols="40">Saisissez votre commentaire.</textarea>
+            <div>
+                <label for="author">Author : </label>
+                <input type="text" id="author" name="comments_author">
+                <input type="submit" value="Validation">
+
+            </div>        
+        </fieldset>
+    </form>    
+</body>
+</html>
