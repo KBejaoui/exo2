@@ -1,0 +1,19 @@
+{
+  "name": "exo2",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000e\u0000x\u0000o\u00002\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KBejaoui/exo2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KBejaoui/exo2/issues"
+  },
+  "homepage": "https://github.com/KBejaoui/exo2#readme"
+}
